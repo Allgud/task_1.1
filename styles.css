@@ -1,0 +1,218 @@
+@font-face {
+  font-family: Barlow;
+  src: url(./fonts/BarlowCondensed-Regular.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container {
+  margin: 0px 30px 0px 30px;
+  font-family: Barlow;
+}
+
+.logo_section {
+  flex: auto;
+}
+
+.logo_section img {
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  color: white;
+  top: 50px;
+  left: 50px;
+}
+
+.logo_title {
+  font-size: 60px;
+  text-transform: lowercase;
+}
+
+.logo_content {
+  display: inline-block;
+  width: 50px;
+  font-size: 12px;
+  line-height: 10px;
+  letter-spacing: 0.6px;
+  margin-left: 2px;
+  align-items: top;
+}
+
+header h1 {
+  font-size: 48px;
+  letter-spacing: 2.2px;
+  color: #2a4a5c;
+  margin-top: 30px;
+}
+
+header p {
+  letter-spacing: 0.8px;
+  color: #afafaf;
+}
+
+.social_network_buttons {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.button {
+  width: 230px;
+  height: 40px;
+  color: white;
+}
+
+.social_network_button_logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 10px 0px -10px;
+}
+
+.social_network_button_text {
+  letter-spacing: 0.6px;
+}
+
+.fb_button {
+  background-color: #255a9b;
+}
+
+.in_button {
+  background-color: #0076b6;
+}
+
+.devider {
+  height: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devider svg {
+  flex: 0 1 33.333%;
+  position: relative;
+}
+
+.devider span {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.devider_end {
+  position: absolute;
+  top: 5px;
+  left: 80px;
+}
+
+.devider_start {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+form {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+form input {
+  width: 230px;
+  height: 50px;
+}
+
+form input::placeholder {
+  padding-left: 5px;
+  transform: translateY(-10px);
+}
+
+form input:focus {
+  outline: none;
+  border-top: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  border-left: 2px solid #0076b6;
+}
+
+.investor_type {
+  font-family: Barlow;
+}
+
+.investor_type h2 {
+  font-size: 24px;
+  letter-spacing: 1.2px;
+  color: #2a4a5c;
+}
+
+.investor_type p {
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  color: #afafaf;
+}
+
+.radio_group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.radio_group_item {
+  flex: 0 1 25%;
+}
+
+.radio_group_item p {
+  visibility: hidden;
+  margin: 10px 0;
+  color: #afafaf;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px #afafaf;
+  padding: 10px;
+}
+
+.radio_group_item_title {
+  margin-left: 10px;
+  font-size: 16px;
+  letter-spacing: 0.8;
+  font-family: Barlow;
+  color: #2a4a5c;
+}
+
+.radio_group_item_info {
+  margin-left: 5px;
+  color: #afafaf;
+}
+
+.radio_group_item_info:hover p {
+  visibility: visible;
+}
+
+.agreement {
+  margin: 50px 0px;
+  color: #afafaf;
+  font-size: 18px;
+  letter-spacing: 0.4px;
+}
+
+.agreement label {
+  margin-left: 10px;
+}
+
+.agreement a {
+  margin-left: 5px;
+}
+
+.create_account_button {
+  background-color: #3698fb;
+  border-style: none;
+  border-radius: 5px;
+}
